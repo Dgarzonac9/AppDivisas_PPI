@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-import matplotlib.pyplot as plt  # iiImportar Matplotlib
+import matplotlib.pyplot as plt  # Importar Matplotlib
 import numpy as np
 
 # API key proporcionada
