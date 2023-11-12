@@ -14,13 +14,13 @@ def vistas(vista):
         historico_page()
 
 def principal_page():
-    ruta_divisas = "C:\\Users\\Asus\\Documents\\unal\\Programacion\\POO\\AppDivisas_PPI\\divisas.json"
+    ruta_divisas = "https://raw.githubusercontent.com/Dgarzonac9/AppDivisas_PPI/main/divisas.json"
     divisas_disponibles = pd.read_json(ruta_divisas)
     divisas_disponibles = divisas_disponibles["divisas_disponibles"][0]
     
     divisa_base = st.selectbox('Elige la divisa base', divisas_disponibles)
     cantidad = st.number_input('Ingresa la cantidad:', min_value=0.01, value=1.00)
-        
+
     tasas = obtener_tasas(divisa_base)
     if tasas:
         divisa_objetivo = st.selectbox('Elige la divisa objetivo', divisas_disponibles)
@@ -62,7 +62,7 @@ def principal_page():
         st.write("Error al obtener las tasas de cambio. Inténtalo más tarde.")
 
 def historico_page():
-    ruta_divisas = "C:\\Users\\Asus\\Documents\\unal\\Programacion\\POO\\AppDivisas_PPI\\divisas.json"
+    ruta_divisas = "https://raw.githubusercontent.com/Dgarzonac9/AppDivisas_PPI/main/divisas.json"
     divisas_disponibles = pd.read_json(ruta_divisas)
     divisas_disponibles = divisas_disponibles["divisas_disponibles"][0]
     
