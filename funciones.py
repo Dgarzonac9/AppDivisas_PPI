@@ -276,7 +276,7 @@ def rendimiento_cartera():
     Returns:
         None
     """
-    st.title("Calculadora de Rendimiento de Cartera")
+    st.title("Rendimiento de Cartera")
 
     # Input de activos y precios
     numero_activos = st.number_input("Número de Activos",
@@ -331,4 +331,3 @@ def rendimiento_cartera():
 
     # Mostrar el gráfico en Streamlit
     st.pyplot(fig)
-    
