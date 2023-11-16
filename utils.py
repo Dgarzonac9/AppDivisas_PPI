@@ -1,7 +1,7 @@
 import requests
 
 # Clave de API proporcionada para el servicio de tasas de cambio
-API_KEY = "T036e078875144954d119fab60c46078f"
+API_KEY = "I21C10pSyNkdvh3BO8JA9SXW3yRO388H"
 
 # Función para obtener las tasas de cambio de la API externa
 def obtener_tasas(base):

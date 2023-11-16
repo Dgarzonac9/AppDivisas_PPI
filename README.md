@@ -15,6 +15,9 @@ La app desplegaa la puedes ver desde este link: https://divisas.streamlit.app/
 - **Tasas de Cambio Históricas:**
   - Elige una fecha, la divisa base y las monedas objetivo.
   - Muestra un gráfico con las tasas de cambio históricas.
+- **Rendimiento de cartera:**
+  - La función calcular_rendimiento_cartera calcula  el rendimiento total de una cartera de activos dados sus precios diarios y las inversiones en cada activo.
+  -Muestra un grafico de el rendimiento diario de los activos que componen la cartera.
 
 - **Navegación Fácil:**
   - Barra lateral con botones para navegar entre las páginas "Inicio" y "Histórico".
