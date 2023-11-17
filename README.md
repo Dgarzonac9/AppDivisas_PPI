@@ -32,6 +32,7 @@ La app desplegaa la puedes ver desde este link: https://divisas.streamlit.app/
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
+- [Numpy](https://numpy.org/)
 
 ## Contribución
 Si quieres contribuir a este proyecto, ¡no dudes en abrir un problema o enviar un pull request!
